@@ -1,0 +1,50 @@
+.head
+  background-color: $accent
+.head-block
+  margin: auto
+  max-width: 1280px
+  padding: 50px
+  display: flex
+  justify-content: space-between
+  // .head-block__text-block
+  &__text-block
+
+  // .head-block__title
+  &__title
+    font-family: Arial
+    font-size: 60px
+    font-weight: 400
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3)
+    color: $light
+  // .head-block__list-block
+  &__list-block
+    margin-top: 40px
+  // .head-block__list
+  &__list
+
+  // .head-block__img-block
+  &__img-block
+
+  // .head-block__img
+  &__img
+
+.list
+  // .list__item
+  &__item
+    position: relative
+    &::before
+      content: url(../img/icons/check_icon.png)
+      position: absolute
+      top: 6px
+  // .list__text
+  &__text
+    margin-left: 30px
+    font-family: Arial
+    font-size: 20px
+    line-height: 36px
+    font-weight: 400
+    text-shadow: 0px 1px 0px rgba(0,0,0,0.3)
+    color: $light
+  
+
+
